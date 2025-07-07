@@ -72,7 +72,7 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
             <option value="CSE">Computer Science and Engineering</option>
             <option value="AIDS">Artificial Intelligence and Data Science</option>
             <option value="AIML">Artificial Intelligence and Machine Learning</option>
-            <option value="Enter your interest" selected="true">Select</option>
+            <option value="Select" selected="true">Select</option>
         </select>
         <br>
 
@@ -95,7 +95,7 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
 
 ## Output:
 
-![Screenshot 2025-07-07 142039](https://github.com/user-attachments/assets/03d84195-01b9-4eb8-ae1f-6c8b49baaa81)
+![image](https://github.com/user-attachments/assets/a5bc7f28-fe70-4d9f-b420-5275d123480e)
 
 
 
