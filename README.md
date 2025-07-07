@@ -35,8 +35,69 @@ Use submit and reset at the bottom of the form.
 No CSS or JavaScript is to be included. Focus on structure and accessibility.
 
 ## HTML Code:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Enquiry Form</title>
+</head>
+<body>
+    <h1>Admission Enquiry</h1>
+
+        <label>Name:</label>
+        <input type="text" placeholder="Enter Full Name" required>
+        <br>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter Email Address">
+        <br>    
+
+        <label>Phone No:</label>
+        <input type="tel" placeholder="Enter Phone Number">
+        <br>    
+
+        <label>Gender</label><br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Other"> Other<br><br>
+
+        <label>Date of Birth</label>
+        <input type="date">
+        <br>
+
+        <label>Departments</label>
+        <select>
+            <option value="CSE">Computer Science and Engineering</option>
+            <option value="AIDS">Artificial Intelligence and Data Science</option>
+            <option value="AIML">Artificial Intelligence and Machine Learning</option>
+            <option value="Enter your interest" selected="true">Select</option>
+        </select>
+        <br>
+
+        <label>Academic Qualification</label>
+        <textarea cols="30" rows="3"></textarea>
+        <br>
+
+        <label>Address</label>
+        <textarea cols="30" rows="3"></textarea>
+        <br>
+
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+</body>
+</html>
+
+```
 
 ## Output:
+
+![Screenshot 2025-07-07 142039](https://github.com/user-attachments/assets/03d84195-01b9-4eb8-ae1f-6c8b49baaa81)
+
+
 
 ## Result:
 An Admission Enquiry Form using HTML that collects student details and message for institutional follow-up is successfully created using semantic and readable HTML.
